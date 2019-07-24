@@ -1,4 +1,4 @@
-# innovate-or-design
+# innovate-or-die
 
 ## Project setup
 

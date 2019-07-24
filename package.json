@@ -1,8 +1,11 @@
 {
-  "name": "fe_bra-health-microsite",
+  "name": "innovate-or-die",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nino1337.github.io/innovate-or-die/",
   "scripts": {
+    "predeploy": "npm run pages",
+    "deploy": "gh-pages -d dist",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "pages": "cross-env process.env.TYPE=PAGES vue-cli-service build"
