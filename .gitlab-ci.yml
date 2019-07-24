@@ -1,0 +1,15 @@
+image: node:10-alpine
+
+pages:
+  script:
+    # move vue public files out of the way
+    - npm ci
+    - npm run pages
+    - rm -rf public
+    - mv dist public
+  artifacts:
+    paths:
+      - public
+
+  only:
+    - master

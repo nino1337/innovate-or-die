@@ -1,0 +1,16 @@
+.util-two-column {
+  padding-top: 16px;
+
+  @media screen and (min-width: $desktopBp) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.util-align-center {
+  text-align: center;
+}
+
+.util-add-margin {
+  margin: 32px 0 16px 0 !important;
+}

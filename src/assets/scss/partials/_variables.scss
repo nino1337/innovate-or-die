@@ -1,0 +1,12 @@
+$headerHeight: 75px;
+$contentWidth: 970px;
+$desktopBp: 768px;
+$ff-bold: 800;
+$ff-semi-bold: 600;
+$ff-normal: 400;
+$ff-regular: "barlow", sans-serif !default;
+$assetPath: "/";
+
+@if $env == "pages" {
+  $assetPath: "/fe_bra-health-microsite/";
+}
